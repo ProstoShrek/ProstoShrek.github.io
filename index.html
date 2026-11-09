@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent — personal automation client</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 720px; margin: 64px auto; padding: 0 24px;
+         font: 16px/1.65 -apple-system, Segoe UI, Roboto, sans-serif; }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  .tag { color: #666; margin-top: 0; }
+  h2 { font-size: 19px; margin-top: 36px; }
+  code { background: rgba(127,127,127,.15); padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 56px; color: #666; font-size: 14px; }
+</style>
+</head>
+<body>
+  <h1>Hermes Agent</h1>
+  <p class="tag">Personal automation client — single user, not distributed.</p>
+
+  <p>This site is the application home page for a private, single-user desktop
+     client that connects to Google APIs (Gmail, Drive, Calendar, Sheets, Docs)
+     on behalf of its owner only. It is not a public product and it is not
+     offered to third parties.</p>
+
+  <h2>What the client does</h2>
+  <ul>
+    <li>Reads and sends email from the owner's own mailbox.</li>
+    <li>Uploads encrypted-archive backups of the owner's local configuration to
+        a Drive folder owned by the same account.</li>
+    <li>Reads and creates events in the owner's own calendar.</li>
+    <li>Reads and edits spreadsheets and documents owned by the owner.</li>
+  </ul>
+
+  <h2>Scope and users</h2>
+  <p>Exactly one account is authorized: the owner's. There is no sign-up, no
+     multi-user access, no data sharing and no advertising. All API traffic runs
+     directly between the desktop client and Google's servers.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>Owner: Pavel · <a href="https://github.com/ProstoShrek">github.com/ProstoShrek</a></footer>
+</body>
+</html>
